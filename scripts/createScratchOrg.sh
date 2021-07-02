@@ -16,7 +16,7 @@ echo "*** Setting up debug mode..."
 sfdx force:apex:execute -f scripts/apex/setDebugMode.apex
 
 echo "*** Creating Debug Community..."
-sfdx force:community:create --name "DXP-BCP-Test" --templatename "Customer Service" --urlpathprefix customers --description "DXP Builder Component Pack Testing Community"
+#sfdx force:community:create --name "DXP BCP Feature Showcase" --templatename "Build Your Own (LWR)" --urlpathprefix customers --description "DXP Builder Component Pack Feature Showcase Community"
 
 echo "*** Opening Org"
 sfdx force:org:open
