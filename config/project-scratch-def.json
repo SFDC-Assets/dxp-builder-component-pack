@@ -1,0 +1,27 @@
+{
+  "orgName": "DXP Builder Component Pack",
+  "edition": "Enterprise",
+  "adminEmail": "dlarrimore@salesforce.com",
+  "description": "Scratch Org Supporting the DXP Builder Component Pack.",
+  "features": [
+    "ServiceCloud",
+    "API",
+    "DebugApex",
+    "DefaultWorkflowUser",
+    "Communities"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    }    
+  }
+}
