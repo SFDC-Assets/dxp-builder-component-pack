@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <masterLabel>SLDS Badge</masterLabel>
+    <description>Badges are labels which hold small amounts of information.</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="badgeLabel" label="Badge Label Text" type="String" default="I'm a Badge"/>            
+            <property name="variant" label="Variant" type="String" datasource="Default,Inverse,Lightest,Success,Warning,Error" default="Default"/>
+            <property name="alignment" label="Alignment" type="String" datasource="Left, Center, Right" default="Center"/>    
+            <property name="padding" label="Padding" type="String" datasource="None, X-Small, Small, Medium, Large, X-Large" default="X-Small"/>             
+        </targetConfig>
+    </targetConfigs>    
+</LightningComponentBundle>
