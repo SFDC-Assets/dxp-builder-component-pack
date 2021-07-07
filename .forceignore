@@ -12,3 +12,15 @@ package.xml
 **/__tests__/**
 
 AppSwitcher.appMenu
+
+force-app/main/default/applications/*
+force-app/main/default/appMenus/*
+force-app/main/default/experiences/*
+force-app/main/default/networks/*
+force-app/main/default/pages/*
+force-app/main/default/siteDotComSites/*
+force-app/main/default/sites/*
+force-app/main/default/staticresources/*
+force-app/main/default/aura/*
+force-app/main/default/components/*
+force-app/main/default/profiles/*
