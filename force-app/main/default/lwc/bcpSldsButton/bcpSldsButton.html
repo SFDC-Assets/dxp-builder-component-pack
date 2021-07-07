@@ -1,7 +1,7 @@
 <template>
     <div class="slds-grid">
-        <div class="slds-col">
-            <c-bcp-Webpart-Button variant={variant} target-url={targetUrl} target-type={targetType} button-label={buttonLabel} alignment={alignment} padding={padding} stretched={stretched}></c-bcp-Webpart-Button>
+        <div class={colCSSClasses}>
+            <a class={buttonCSSClasses} target={buttonTarget} href={targetUrl}>{buttonLabel}</a>
         </div>
     </div>
 </template>

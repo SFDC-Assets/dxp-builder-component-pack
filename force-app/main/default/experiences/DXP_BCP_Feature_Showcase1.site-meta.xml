@@ -2,5 +2,5 @@
 <ExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>DXP BCP Feature Showcase</label>
     <type>ChatterNetworkPicasso</type>
-    <urlPathPrefix>customers/s</urlPathPrefix>
+    <urlPathPrefix>bcpfeatureshowcase/s</urlPathPrefix>
 </ExperienceBundle>

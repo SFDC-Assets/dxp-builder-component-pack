@@ -13,10 +13,56 @@
       "regions" : [ {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\"><div style=\"background-image: url(assets/img/desert.svg); background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div><h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> <div>Drag and drop a component into the content slots.</div></div>"
+            "alignment" : "Right",
+            "buttonLabel" : "I'm a Button",
+            "padding" : "X-Small",
+            "stretched" : false,
+            "targetType" : "Blank",
+            "targetUrl" : "https://www.google.com",
+            "variant" : "Text Destructive"
           },
-          "componentName" : "community_builder:htmlEditor",
-          "id" : "493ac44c-3e3a-4653-ba76-3bae1b04b380",
+          "componentName" : "c:bcpSldsButton",
+          "id" : "0683030a-ce42-432c-ab66-0ab37f3e2051",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:bcpHorizontalRule",
+          "id" : "15f66d89-c2c1-4361-9daf-3a5ad1e4e051",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "alignment" : "Center",
+            "badgeLabel" : "I'm a Badge",
+            "padding" : "X-Small",
+            "variant" : "Default"
+          },
+          "componentName" : "c:bcpSldsBadge",
+          "id" : "18420e12-f392-4ff8-9fc5-fee55d9a5b27",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:bcpHorizontalRule",
+          "id" : "24204077-dfac-4506-bb5b-648cd2aefa60",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "alignment" : "Right",
+            "buttonLabels" : "Button 1, Button 4, Button 6",
+            "padding" : "Large",
+            "targetType" : "Self",
+            "targetUrls" : "https://google.com, https://youtube.com, https://yahoo.com",
+            "variant" : "Brand"
+          },
+          "componentName" : "c:bcpSldsButtonGroup",
+          "id" : "239cdd84-b12b-4204-ae1d-f6b72142c8f0",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>52.0</apiVersion>
-    <masterLabel>SLDS Button</masterLabel>
-    <description>Link using SLDS Button Styling.</description>
+    <masterLabel>SLDS Button Group</masterLabel>
+    <description>SLDS Button Group of Links</description>
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
@@ -10,13 +10,12 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
-            <property name="buttonLabel" label="Button Label Text" type="String" default="I'm a Button"/>  
-            <property name="targetUrl" label="Target Url" type="String" default="" placeholder="https://www.google.com or /contact-us"/>      
+            <property name="buttonLabels" label="Button Labels" type="String" default="Button 1,Button 2,Button 3"/>  
+            <property name="targetUrls" label="Target Urls" type="String" default="https://google.com,https://youtube.com,https://yahoo.com"/>      
             <property name="targetType" label="Target Type" type="String" datasource="Blank,Self,Parent,Top" default="Self"/>       
             <property name="variant" label="Variant" type="String" datasource="Neutral,Brand,Outline Brand,Destructive,Text Destructive,Success" default="Neutral"/>
             <property name="alignment" label="Alignment" type="String" datasource="Left, Center, Right" default="Center"/>    
-            <property name="stretched" label="Stretched" type="Boolean" default="false"/>  
             <property name="padding" label="Padding" type="String" datasource="None, X-Small, Small, Medium, Large, X-Large" default="X-Small"/>             
         </targetConfig>
-    </targetConfigs>    
+    </targetConfigs>   
 </LightningComponentBundle>
