@@ -10,7 +10,7 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
-            <property name="buttonLabel" label="Button Label Text" type="String" default="I'm a Button"/>  
+            <property name="buttonLabel" label="Button Label Text" type="String" default="I'm a Button that Opens a Modal Window"/>  
             <property name="variant" label="Button Variant" type="String" datasource="Neutral,Brand,Outline Brand,Destructive,Text Destructive,Success" default="Neutral"/>
             <property name="alignment" label="Button Alignment" type="String" datasource="Left, Center, Right" default="Center"/>    
             <property name="stretched" label="Button Stretched?" type="Boolean" default="false"/>  

@@ -11,5 +11,3 @@ sfdx force:package:version:create --package "DXP Builder Component Pack" -x --wa
 
 echo "*** Promoting Latest Managed Package ..."
 sfdx force:package:version:promote -p $(sfdx force:package:version:list -p 'DXP Builder Component Pack' -o CreatedDate --concise | tail -1 | awk '{print $3}')  --targetdevhubusername CDOPackageManager
-
-L33tp$$wrDy
