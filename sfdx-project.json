@@ -5,7 +5,7 @@
             "default": true,
             "package": "DXP Builder Component Pack",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.2.NEXT"
+            "versionNumber": "0.1.3.NEXT"
         }
     ],
     "name": "dxp-builder-component-pack",
@@ -16,6 +16,7 @@
         "DXP Builder Component Pack": "0Ho4W000000blhGSAQ",
         "DXP Builder Component Pack@0.1.0-1": "04t4W000002ngC9QAI",
         "DXP Builder Component Pack@0.1.1-1": "04t4W000002ngCOQAY",
-        "DXP Builder Component Pack@0.1.2-1": "04t4W000002ngCYQAY"
+        "DXP Builder Component Pack@0.1.2-1": "04t4W000002ngCYQAY",
+        "DXP Builder Component Pack@0.1.3-1": "04t4W000002ngPdQAI"
     }
 }

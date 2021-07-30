@@ -10,7 +10,7 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
-            <property name="buttonLabels" label="Button Labels" type="String" default="Button 1,Button 2,Button 3"/>  
+            <property name="buttonLabels" label="Button Labels" type="String" default="Button Group Item 1,Button Group Item 2,Button Group Item 3"/>  
             <property name="targetUrls" label="Target Urls" type="String" default="https://google.com,https://youtube.com,https://yahoo.com"/>      
             <property name="targetType" label="Target Type" type="String" datasource="Blank,Self,Parent,Top" default="Self"/>       
             <property name="variant" label="Variant" type="String" datasource="Neutral,Brand,Outline Brand,Destructive,Text Destructive,Success" default="Neutral"/>

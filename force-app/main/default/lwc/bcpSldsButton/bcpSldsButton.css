@@ -1,0 +1,77 @@
+.slds-button--brand, .slds-button_brand {
+    background-color: var(--sds-c-button-brand-color-background,var(--dxp-g-brand,#0176d3));
+    border-color: var(--sds-c-button-brand-color-border,var(--dxp-g-brand,#0176d3));
+    color: var(--sds-c-button-brand-text-color,var(--dxp-g-brand-contrast,#fff));
+    transition: var(--dxp-c-button-brand-transition);
+}
+
+.slds-button_outline-brand {
+    background-color: var(--sds-c-button-outline-brand-color-background,var(--dxp-g-root,#fff));
+    border-color: var(--sds-c-button-outline-brand-color-border,var(--dxp-g-brand,#0176d3));
+    transition: var(--dxp-c-button-outline-brand-transition);
+}
+
+.slds-button--destructive, .slds-button_destructive {
+    padding-left: var(--sds-c-button-destructive-spacing-inline-start,1rem);
+    padding-right: var(--sds-c-button-destructive-spacing-inline-end,1rem);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: border .15s linear;
+    transition: border .15s linear;
+    background-color: var(--sds-c-button-destructive-color-background,#ba0517);
+    border-color: var(--sds-c-button-destructive-color-border,#ba0517);
+    color: var(--sds-c-button-destructive-text-color,#fff);
+}
+
+.slds-button_outline-brand[c-bcpSldsButton_bcpSldsButton] {
+    background-color: var(--sds-c-button-outline-brand-color-background,var(--dxp-g-root,#fff));
+    border-color: var(--sds-c-button-outline-brand-color-border,var(--dxp-g-brand,#0176d3));
+    transition: var(--dxp-c-button-outline-brand-transition);
+}
+
+.slds-button--success, .slds-button_success {
+    padding-left: var(--sds-c-button-success-spacing-inline-start,1rem);
+    padding-right: var(--sds-c-button-success-spacing-inline-end,1rem);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: border .15s linear;
+    transition: border .15s linear;
+    background-color: var(--sds-c-button-success-color-background,#45c65a);
+    border-color: var(--sds-c-button-success-color-border,#91db8b);
+    color: var(--sds-c-button-success-text-color,#080707);
+}
+
+.slds-button--success:focus, .slds-button--success:hover, .slds-button_success:focus, .slds-button_success:hover {
+    background-color: var(--sds-c-button-success-color-background-hover,#2e844a);
+    border-color: var(--sds-c-button-success-color-border-hover,#2e844a);
+    color: var(--sds-c-button-success-text-color-hover,#fff);
+}
+
+.slds-button--brand:focus, .slds-button--brand:hover, .slds-button_brand:focus, .slds-button_brand:hover {
+    background-color: var(--sds-c-button-brand-color-background-hover,var(--dxp-g-brand-1,#014486));
+    border-color: var(--sds-c-button-brand-color-border-hover,var(--dxp-g-brand-1,#014486));
+    color: var(--sds-c-button-brand-text-color-hover,var(--dxp-g-brand-contrast-1,#fff));
+}
+
+.slds-button--destructive:focus, .slds-button--destructive:hover, .slds-button_destructive:focus, .slds-button_destructive:hover {
+    background-color: var(--sds-c-button-destructive-color-background-hover,var(--dxp-g-destructive-1,#ba0517));
+    border-color: var(--sds-c-button-destructive-color-border-hover,var(--dxp-g-destructive-1,#ba0517));
+    color: var(--sds-c-button-destructive-text-color-hover,var(--dxp-g-destructive-contrast-1,#fff));
+}
+
+.slds-button_text-destructive:focus, .slds-button_text-destructive:hover {
+    background-color: var(--sds-c-button-text-destructive-color-background-hover,#fafaf9);
+    border-color: var(--sds-c-button-text-destructive-color-border-hover,#dddbda);
+    color: var(--sds-c-button-text-destructive-text-color-hover,#ba0517);
+}
+
+.slds-button_outline-brand:focus, .slds-button_outline-brand:hover {
+    background-color: var(--sds-c-button-outline-brand-color-background-hover,var(--dxp-g-root-1,#fafaf9));
+    border-color: var(--sds-c-button-outline-brand-color-border-hover,var(--dxp-g-brand,#0176d3));
+}

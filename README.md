@@ -1,18 +1,21 @@
-# Salesforce DX Project: Next Steps
+# Digital Experience Builder Component Pack
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+![alt text](readmeAssets/ss.png?raw=true)
 
-## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## About
 
-## Configure Your Salesforce DX Project
+This Simple component provides some simple components to enhance your Digital Experience without messing with HTML or Lightning Web Components, Just drag, drop, configure, and publish!
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Current Components
 
-## Read All About It
+- [Button](https://www.lightningdesignsystem.com/components/buttons/)
+- [Button Group](https://www.lightningdesignsystem.com/components/button-groups/)
+- [Badge](https://www.lightningdesignsystem.com/components/badges/)
+- [Horizontal Rule](https://www.w3schools.com/tags/tag_hr.asp)
+- Button that opens a Modal Window
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Installation
+
+[Install the Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4W000002ngPdQAI)
+

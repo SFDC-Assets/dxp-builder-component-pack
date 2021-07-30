@@ -1,0 +1,22 @@
+.slds-badge_inverse {
+    background-color: var(--sds-c-badge-inverse-color-background,var(--dxp-g-neutral-3,#706e6b));
+    color: var(--sds-c-badge-inverse-text-color,var(--dxp-g-neutral-contrast-3,#fff));
+}
+
+.slds-badge.slds-badge_lightest {
+    color: var(--dxp-g-root-contrast);
+}
+
+.slds-theme--success, .slds-theme_success {
+    color: var(--dxp-g-success-contrast);
+    background-color: var(--dxp-g-success);
+    border-color: var(--dxp-g-success);
+}
+
+.slds-badge.slds-theme_error, .slds-badge.slds-theme_error .slds-badge__icon {
+    color: var(--sds-c-badge-icon-color-foreground,var(--sds-c-badge-icon-color-foreground-error,var(--dxp-g-destructive-contrast)));
+}
+
+.slds-badge.slds-theme_warning, .slds-badge.slds-theme_warning .slds-badge__icon {
+    color: var(--sds-c-badge-icon-color-foreground,var(--sds-c-badge-icon-color-foreground-warning,var(--dxp-g-warning-contrast)));
+}

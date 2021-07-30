@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <masterLabel>SLDS Button with Modal</masterLabel>
+    <description>Link using SLDS Button Styling, button click opens modal window with close button</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="buttonLabel" label="Button Label Text" type="String" default="I'm a Button"/>  
+            <property name="variant" label="Button Variant" type="String" datasource="Neutral,Brand,Outline Brand,Destructive,Text Destructive,Success" default="Neutral"/>
+            <property name="alignment" label="Button Alignment" type="String" datasource="Left, Center, Right" default="Center"/>    
+            <property name="stretched" label="Button Stretched?" type="Boolean" default="false"/>  
+            <property name="padding" label="Button Padding" type="String" datasource="None, X-Small, Small, Medium, Large, X-Large" default="X-Small"/> 
+            <property name="modalTitle" label="Modal Title" type="String" default="I'm a Modal"/>   
+            <property name="modalHTMLBody" label="Modal Body (Text)" type="String" default="Put your Text here..."/>             
+        </targetConfig>
+    </targetConfigs>    
+</LightningComponentBundle>
